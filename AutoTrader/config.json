@@ -1,0 +1,16 @@
+{
+    "mt5_credentials": {
+        "account": 501135901,
+        "password": "Nc+y7yXf",
+        "server": "RoboForex-Pro"
+    },
+    "symbols": [
+        "EURUSD",
+        "GBPUSD",
+        "XAUUSD"
+    ],
+    "timeframes": [
+        "M1",
+        "M5"
+    ]
+} 
