@@ -3985,3 +3985,690 @@
 2025-04-04 21:18:22,570 - INFO - Database connection closed
 2025-04-04 21:18:22,570 - INFO - MetaTrader 5 connection closed
 2025-04-04 21:18:22,570 - INFO - Live updater shutdown complete
+2025-04-04 21:19:30,835 - INFO - Configuration loaded from c:\Projects\Trading\MT5-Live-Data-Chart-main\AutoTrader/config.json
+2025-04-04 21:19:30,844 - INFO - MetaTrader 5 version: (500, 4885, '28 Feb 2025')
+2025-04-04 21:19:30,845 - INFO - Successfully logged in to account 501135901 on server RoboForex-Pro
+2025-04-04 21:19:30,847 - INFO - Successfully connected to database at c:\Projects\Trading\MT5-Live-Data-Chart-main\mt5_historical_data.db
+2025-04-04 21:19:30,848 - INFO - Database tables initialized
+2025-04-04 21:19:30,848 - INFO - Using update interval of 15 seconds
+2025-04-04 21:19:31,836 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:19:32,768 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:19:33,764 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:19:34,692 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:19:35,624 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:19:36,542 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:19:36,548 - INFO - Updated 657 candles in 5.70s, sleeping for 9.30s
+2025-04-04 21:19:37,582 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:19:38,527 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:19:39,504 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:19:40,479 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:19:41,429 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:19:42,400 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:19:42,407 - INFO - Updated 654 candles in 5.76s, sleeping for 9.24s
+2025-04-04 21:19:43,447 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:19:44,436 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:19:45,619 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:19:46,770 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:19:47,891 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:19:49,028 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:19:49,035 - INFO - Updated 654 candles in 6.53s, sleeping for 8.47s
+2025-04-04 21:19:50,326 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:19:51,440 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:19:52,529 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:19:53,569 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:19:54,606 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:19:55,702 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:19:55,709 - INFO - Updated 654 candles in 6.57s, sleeping for 8.43s
+2025-04-04 21:19:56,897 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:19:58,037 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:19:59,257 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:00,353 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:01,440 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:02,541 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:02,547 - INFO - Updated 654 candles in 6.74s, sleeping for 8.26s
+2025-04-04 21:20:03,697 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:04,837 - INFO - Updated 38 candles for EURUSD M5
+2025-04-04 21:20:05,931 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:20:07,151 - INFO - Updated 38 candles for GBPUSD M5
+2025-04-04 21:20:08,288 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:09,450 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:09,458 - INFO - Updated 657 candles in 6.81s, sleeping for 8.19s
+2025-04-04 21:20:10,777 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:11,912 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:13,073 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:14,207 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:15,320 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:16,294 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:16,305 - INFO - Updated 654 candles in 6.75s, sleeping for 8.25s
+2025-04-04 21:20:17,387 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:18,355 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:19,337 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:20,286 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:21,255 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:22,216 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:22,222 - INFO - Updated 654 candles in 5.82s, sleeping for 9.18s
+2025-04-04 21:20:23,309 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:24,326 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:25,358 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:26,345 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:27,327 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:28,275 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:28,282 - INFO - Updated 654 candles in 5.96s, sleeping for 9.04s
+2025-04-04 21:20:29,328 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:30,305 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:31,298 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:32,272 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:33,207 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:34,217 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:34,227 - INFO - Stats: 10 updates, 63.4s total time, avg 6.34s per cycle
+2025-04-04 21:20:34,227 - INFO - Updated 654 candles in 5.84s, sleeping for 9.16s
+2025-04-04 21:20:35,269 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:36,255 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:37,247 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:38,216 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:39,218 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:40,154 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:40,160 - INFO - Updated 654 candles in 5.83s, sleeping for 9.17s
+2025-04-04 21:20:41,234 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:42,228 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:43,234 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:44,278 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:45,262 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:46,218 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:46,224 - INFO - Updated 654 candles in 5.96s, sleeping for 9.04s
+2025-04-04 21:20:47,307 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:48,264 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:49,253 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:50,225 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:51,165 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:52,356 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:52,362 - INFO - Updated 654 candles in 6.04s, sleeping for 8.96s
+2025-04-04 21:20:53,405 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:20:54,373 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:20:55,324 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:20:56,315 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:20:57,269 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:20:58,277 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:20:58,282 - INFO - Updated 654 candles in 5.82s, sleeping for 9.18s
+2025-04-04 21:20:59,335 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:21:00,308 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:21:01,291 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:21:02,291 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:21:03,276 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:21:04,265 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:21:04,271 - INFO - Updated 654 candles in 5.89s, sleeping for 9.11s
+2025-04-04 21:21:05,314 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:21:06,371 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:21:07,368 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:21:08,423 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:21:09,422 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:21:10,369 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:21:10,375 - INFO - Updated 655 candles in 6.00s, sleeping for 9.00s
+2025-04-04 21:21:11,431 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:21:12,382 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:21:13,348 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:21:14,342 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:21:15,364 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:21:15,649 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:21:16,353 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:21:16,361 - INFO - Updated 654 candles in 5.89s, sleeping for 9.11s
+2025-04-04 21:21:16,461 - INFO - Database connection closed
+2025-04-04 21:21:16,461 - INFO - MetaTrader 5 connection closed
+2025-04-04 21:21:16,462 - INFO - Live updater shutdown complete
+2025-04-04 21:22:12,280 - INFO - Configuration loaded from c:\Projects\Trading\MT5-Live-Data-Chart-main\AutoTrader/config.json
+2025-04-04 21:22:12,289 - INFO - MetaTrader 5 version: (500, 4885, '28 Feb 2025')
+2025-04-04 21:22:12,290 - INFO - Successfully logged in to account 501135901 on server RoboForex-Pro
+2025-04-04 21:22:12,291 - INFO - Successfully connected to database at c:\Projects\Trading\MT5-Live-Data-Chart-main\mt5_historical_data.db
+2025-04-04 21:22:12,291 - INFO - Database tables initialized
+2025-04-04 21:22:12,292 - INFO - Using update interval of 15 seconds
+2025-04-04 21:22:13,262 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:22:14,312 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:15,315 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:22:16,249 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:17,159 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:22:18,088 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:18,095 - INFO - Updated 657 candles in 5.80s, sleeping for 9.20s
+2025-04-04 21:22:19,169 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:20,087 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:21,087 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:22,075 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:23,020 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:22:23,930 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:23,936 - INFO - Updated 654 candles in 5.74s, sleeping for 9.26s
+2025-04-04 21:22:24,970 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:25,902 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:26,874 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:27,801 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:28,771 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:22:29,714 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:29,721 - INFO - Updated 654 candles in 5.68s, sleeping for 9.32s
+2025-04-04 21:22:30,760 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:31,784 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:32,947 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:34,035 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:35,167 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:22:36,266 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:36,272 - INFO - Updated 654 candles in 6.45s, sleeping for 8.55s
+2025-04-04 21:22:37,551 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:38,682 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:39,775 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:40,783 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:42,047 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:22:43,140 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:43,148 - INFO - Updated 654 candles in 6.77s, sleeping for 8.23s
+2025-04-04 21:22:44,355 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:45,486 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:46,576 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:47,524 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:48,440 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:22:49,350 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:49,355 - INFO - Updated 654 candles in 6.11s, sleeping for 8.89s
+2025-04-04 21:22:50,365 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:51,319 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:52,391 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:53,351 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:22:54,258 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:22:55,191 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:22:55,197 - INFO - Updated 654 candles in 5.74s, sleeping for 9.26s
+2025-04-04 21:22:56,279 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:22:57,447 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:22:58,602 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:22:59,728 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:23:00,830 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:23:01,871 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:23:01,878 - INFO - Updated 654 candles in 6.58s, sleeping for 8.42s
+2025-04-04 21:23:02,946 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:23:03,917 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:23:04,945 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:23:05,948 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:23:06,984 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:23:07,954 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:23:07,962 - INFO - Updated 656 candles in 5.98s, sleeping for 9.02s
+2025-04-04 21:23:09,041 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:23:09,999 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:23:11,008 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:23:11,992 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:23:12,999 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:23:13,953 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:23:13,961 - INFO - Stats: 10 updates, 61.7s total time, avg 6.17s per cycle
+2025-04-04 21:23:13,961 - INFO - Updated 654 candles in 5.90s, sleeping for 9.10s
+2025-04-04 21:23:14,986 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:23:15,967 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:23:16,891 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:23:17,862 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:23:18,842 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:23:18,866 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:23:19,877 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:23:19,883 - INFO - Updated 654 candles in 5.82s, sleeping for 9.18s
+2025-04-04 21:23:19,987 - INFO - Database connection closed
+2025-04-04 21:23:19,988 - INFO - MetaTrader 5 connection closed
+2025-04-04 21:23:19,988 - INFO - Live updater shutdown complete
+2025-04-04 21:23:21,398 - INFO - Configuration loaded from c:\Projects\Trading\MT5-Live-Data-Chart-main\AutoTrader/config.json
+2025-04-04 21:23:21,408 - INFO - MetaTrader 5 version: (500, 4885, '28 Feb 2025')
+2025-04-04 21:23:21,409 - INFO - Successfully logged in to account 501135901 on server RoboForex-Pro
+2025-04-04 21:23:21,410 - INFO - Successfully connected to database at c:\Projects\Trading\MT5-Live-Data-Chart-main\mt5_historical_data.db
+2025-04-04 21:23:21,411 - INFO - Database tables initialized
+2025-04-04 21:23:21,411 - INFO - Using update interval of 15 seconds
+2025-04-04 21:23:24,334 - INFO - Updated 50173 candles for EURUSD M1
+2025-04-04 21:23:27,433 - INFO - Updated 50035 candles for EURUSD M5
+2025-04-04 21:23:30,543 - INFO - Updated 50173 candles for GBPUSD M1
+2025-04-04 21:23:34,194 - INFO - Updated 50035 candles for GBPUSD M5
+2025-04-04 21:23:37,965 - INFO - Updated 50173 candles for XAUUSD M1
+2025-04-04 21:23:41,869 - INFO - Updated 50035 candles for XAUUSD M5
+2025-04-04 21:23:41,885 - INFO - Updated 300624 candles in 20.47s, sleeping for 0.05s
+2025-04-04 21:23:44,322 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:23:46,548 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:23:48,763 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:23:50,999 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:23:53,256 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:23:55,366 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:23:55,380 - INFO - Updated 654 candles in 13.39s, sleeping for 1.61s
+2025-04-04 21:23:57,399 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:23:59,207 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:24:01,099 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:24:02,949 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:24:04,723 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:24:06,563 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:24:06,576 - INFO - Updated 654 candles in 11.10s, sleeping for 3.90s
+2025-04-04 21:24:08,446 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:24:10,258 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:24:12,151 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:24:13,986 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:24:15,759 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:24:17,567 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:24:17,582 - INFO - Updated 656 candles in 10.90s, sleeping for 4.10s
+2025-04-04 21:24:19,470 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:24:21,326 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:24:23,254 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:24:25,150 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:24:27,088 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:24:29,097 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:24:29,109 - INFO - Updated 654 candles in 11.42s, sleeping for 3.58s
+2025-04-04 21:24:31,121 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:24:33,007 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:24:34,899 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:24:36,723 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:24:38,595 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:24:40,501 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:24:40,517 - INFO - Updated 654 candles in 11.31s, sleeping for 3.69s
+2025-04-04 21:24:42,542 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:24:44,375 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:24:46,310 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:24:48,254 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:24:50,151 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:24:52,135 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:24:52,148 - INFO - Updated 654 candles in 11.53s, sleeping for 3.47s
+2025-04-04 21:24:54,240 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:24:56,173 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:24:58,086 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:24:59,982 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:25:01,876 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:25:03,793 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:25:03,807 - INFO - Updated 654 candles in 11.56s, sleeping for 3.44s
+2025-04-04 21:25:05,785 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:25:07,670 - INFO - Updated 38 candles for EURUSD M5
+2025-04-04 21:25:09,647 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:25:11,530 - INFO - Updated 38 candles for GBPUSD M5
+2025-04-04 21:25:13,458 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:25:15,411 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:25:15,425 - INFO - Updated 658 candles in 11.52s, sleeping for 3.48s
+2025-04-04 21:25:17,336 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:25:19,139 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:25:21,069 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:25:23,011 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:25:24,896 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:25:26,807 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:25:26,820 - INFO - Stats: 10 updates, 125.4s total time, avg 12.54s per cycle
+2025-04-04 21:25:26,821 - INFO - Updated 654 candles in 11.29s, sleeping for 3.71s
+2025-04-04 21:25:28,797 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:25:30,704 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:25:32,734 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:25:34,869 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:25:36,823 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:25:38,679 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:25:38,693 - INFO - Updated 654 candles in 11.77s, sleeping for 3.23s
+2025-04-04 21:25:40,682 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:25:42,669 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:25:44,681 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:25:46,644 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:25:48,476 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:25:50,436 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:25:50,452 - INFO - Updated 654 candles in 11.66s, sleeping for 3.34s
+2025-04-04 21:25:52,428 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:25:54,370 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:25:56,280 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:25:58,190 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:26:00,100 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:26:01,943 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:26:01,959 - INFO - Updated 654 candles in 11.40s, sleeping for 3.60s
+2025-04-04 21:26:03,942 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:26:05,830 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:26:07,721 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:26:09,690 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:26:11,710 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:26:13,594 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:26:13,607 - INFO - Updated 656 candles in 11.55s, sleeping for 3.45s
+2025-04-04 21:26:15,544 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:26:17,422 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:26:19,337 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:26:21,243 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:26:23,164 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:26:25,075 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:26:25,091 - INFO - Updated 654 candles in 11.38s, sleeping for 3.62s
+2025-04-04 21:26:27,046 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:26:28,955 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:26:30,728 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:26:32,657 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:26:34,763 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:26:36,929 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:26:36,941 - INFO - Updated 654 candles in 11.75s, sleeping for 3.25s
+2025-04-04 21:26:39,146 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:26:41,358 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:26:43,486 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:26:45,523 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:26:47,701 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:26:49,807 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:26:49,822 - INFO - Updated 654 candles in 12.78s, sleeping for 2.22s
+2025-04-04 21:26:52,063 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:26:54,394 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:26:56,524 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:26:58,771 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:27:00,923 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:27:03,092 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:27:03,104 - INFO - Updated 654 candles in 13.18s, sleeping for 1.82s
+2025-04-04 21:27:05,393 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:27:07,462 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:27:09,493 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:27:11,309 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:27:13,178 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:27:15,639 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:27:15,660 - INFO - Updated 656 candles in 12.46s, sleeping for 2.54s
+2025-04-04 21:27:17,595 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:27:19,448 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:27:21,266 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:27:23,083 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:27:24,949 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:27:26,781 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:27:26,791 - INFO - Stats: 20 updates, 245.4s total time, avg 12.27s per cycle
+2025-04-04 21:27:26,791 - INFO - Updated 654 candles in 11.03s, sleeping for 3.97s
+2025-04-04 21:27:28,721 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:27:30,588 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:27:32,490 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:27:34,346 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:27:36,226 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:27:38,172 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:27:38,182 - INFO - Updated 654 candles in 11.29s, sleeping for 3.71s
+2025-04-04 21:27:40,229 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:27:42,193 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:27:44,230 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:27:46,134 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:27:48,080 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:27:50,170 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:27:50,190 - INFO - Updated 654 candles in 11.91s, sleeping for 3.09s
+2025-04-04 21:27:52,250 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:27:54,170 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:27:56,106 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:27:58,204 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:28:00,052 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:28:01,843 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:28:01,855 - INFO - Updated 654 candles in 11.56s, sleeping for 3.44s
+2025-04-04 21:28:03,873 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:28:05,910 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:28:08,036 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:28:10,022 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:28:12,010 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:28:13,942 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:28:13,959 - INFO - Updated 656 candles in 12.00s, sleeping for 3.00s
+2025-04-04 21:28:16,384 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:28:18,608 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:28:20,927 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:28:23,205 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:28:25,443 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:28:27,722 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:28:27,735 - INFO - Updated 654 candles in 13.68s, sleeping for 1.32s
+2025-04-04 21:28:30,021 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:28:32,268 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:28:34,475 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:28:36,814 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:28:39,009 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:28:41,204 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:28:41,218 - INFO - Updated 654 candles in 13.38s, sleeping for 1.62s
+2025-04-04 21:28:43,498 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:28:45,712 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:28:47,996 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:28:50,255 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:28:52,365 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:28:54,531 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:28:54,545 - INFO - Updated 654 candles in 13.23s, sleeping for 1.77s
+2025-04-04 21:28:56,791 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:28:58,894 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:29:01,063 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:29:03,416 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:29:05,784 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:29:07,967 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:29:07,985 - INFO - Updated 654 candles in 13.34s, sleeping for 1.66s
+2025-04-04 21:29:10,309 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:29:12,582 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:29:14,783 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:29:17,006 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:29:19,189 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:29:21,336 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:29:21,350 - INFO - Updated 656 candles in 13.26s, sleeping for 1.74s
+2025-04-04 21:29:23,725 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:29:25,944 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:29:28,074 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:29:30,250 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:29:32,404 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:29:34,574 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:29:34,587 - INFO - Stats: 30 updates, 373.2s total time, avg 12.44s per cycle
+2025-04-04 21:29:34,587 - INFO - Updated 654 candles in 13.14s, sleeping for 1.86s
+2025-04-04 21:29:36,841 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:29:39,133 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:29:41,348 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:29:43,508 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:29:45,636 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:29:47,876 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:29:47,892 - INFO - Updated 654 candles in 13.20s, sleeping for 1.80s
+2025-04-04 21:29:50,109 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:29:52,290 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:29:54,597 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:29:56,852 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:29:59,153 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:30:01,329 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:30:01,342 - INFO - Updated 654 candles in 13.35s, sleeping for 1.65s
+2025-04-04 21:30:03,644 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:30:05,766 - INFO - Updated 38 candles for EURUSD M5
+2025-04-04 21:30:07,891 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:30:10,128 - INFO - Updated 38 candles for GBPUSD M5
+2025-04-04 21:30:12,293 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:30:14,485 - INFO - Updated 38 candles for XAUUSD M5
+2025-04-04 21:30:14,496 - INFO - Updated 659 candles in 13.05s, sleeping for 1.95s
+2025-04-04 21:30:16,687 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:30:18,975 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:30:21,219 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:30:23,450 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:30:25,694 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:30:27,879 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:30:27,892 - INFO - Updated 654 candles in 13.29s, sleeping for 1.71s
+2025-04-04 21:30:30,100 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:30:32,222 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:30:34,466 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:30:36,678 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:30:38,877 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:30:41,060 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:30:41,073 - INFO - Updated 654 candles in 13.08s, sleeping for 1.92s
+2025-04-04 21:30:43,536 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:30:45,795 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:30:47,870 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:30:50,037 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:30:52,126 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:30:54,320 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:30:54,334 - INFO - Updated 654 candles in 13.16s, sleeping for 1.84s
+2025-04-04 21:30:56,582 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:30:58,754 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:31:00,981 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:31:03,184 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:31:05,301 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:31:07,381 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:31:07,393 - INFO - Updated 654 candles in 12.96s, sleeping for 2.04s
+2025-04-04 21:31:09,643 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:31:11,880 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:31:14,068 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:31:16,404 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:31:18,680 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:31:20,873 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:31:20,888 - INFO - Updated 656 candles in 13.39s, sleeping for 1.61s
+2025-04-04 21:31:23,336 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:31:25,659 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:31:27,911 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:31:30,207 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:31:32,443 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:31:34,605 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:31:34,623 - INFO - Updated 654 candles in 13.63s, sleeping for 1.37s
+2025-04-04 21:31:37,139 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:31:39,339 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:31:41,539 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:31:43,818 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:31:46,039 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:31:48,253 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:31:48,270 - INFO - Stats: 40 updates, 506.9s total time, avg 12.67s per cycle
+2025-04-04 21:31:48,270 - INFO - Updated 654 candles in 13.55s, sleeping for 1.45s
+2025-04-04 21:31:50,556 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:31:52,735 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:31:54,955 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:31:57,135 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:31:59,397 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:32:01,620 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:32:01,635 - INFO - Updated 654 candles in 13.26s, sleeping for 1.74s
+2025-04-04 21:32:04,003 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:32:06,297 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:32:08,516 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:32:10,763 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:32:12,908 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:32:15,130 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:32:15,145 - INFO - Updated 656 candles in 13.41s, sleeping for 1.59s
+2025-04-04 21:32:17,455 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:32:19,673 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:32:21,873 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:32:24,099 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:32:26,332 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:32:28,643 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:32:28,656 - INFO - Updated 654 candles in 13.41s, sleeping for 1.59s
+2025-04-04 21:32:31,007 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:32:33,260 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:32:35,443 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:32:37,642 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:32:39,856 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:32:42,107 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:32:42,118 - INFO - Updated 654 candles in 13.36s, sleeping for 1.64s
+2025-04-04 21:32:44,447 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:32:46,635 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:32:48,727 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:32:51,015 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:32:53,265 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:32:55,463 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:32:55,478 - INFO - Updated 654 candles in 13.26s, sleeping for 1.74s
+2025-04-04 21:32:57,797 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:33:00,060 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:33:02,203 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:33:04,442 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:33:06,753 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:33:08,991 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:33:09,006 - INFO - Updated 655 candles in 13.43s, sleeping for 1.57s
+2025-04-04 21:33:11,308 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:33:13,504 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:33:15,586 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:33:17,896 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:33:20,164 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:33:22,371 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:33:22,385 - INFO - Updated 655 candles in 13.28s, sleeping for 1.72s
+2025-04-04 21:33:24,740 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:33:26,978 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:33:29,171 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:33:31,522 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:33:33,749 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:33:36,034 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:33:36,055 - INFO - Updated 654 candles in 13.57s, sleeping for 1.43s
+2025-04-04 21:33:38,407 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:33:40,605 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:33:42,905 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:33:45,057 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:33:47,211 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:33:49,387 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:33:49,402 - INFO - Updated 654 candles in 13.25s, sleeping for 1.75s
+2025-04-04 21:33:51,719 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:33:53,939 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:33:56,197 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:33:58,444 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:34:00,691 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:34:02,917 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:34:02,936 - INFO - Stats: 50 updates, 641.5s total time, avg 12.83s per cycle
+2025-04-04 21:34:02,936 - INFO - Updated 654 candles in 13.43s, sleeping for 1.57s
+2025-04-04 21:34:05,277 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:34:07,475 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:34:09,737 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:34:11,934 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:34:14,169 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:34:16,408 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:34:16,421 - INFO - Updated 656 candles in 13.38s, sleeping for 1.62s
+2025-04-04 21:34:18,690 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:34:20,926 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:34:23,128 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:34:25,318 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:34:27,551 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:34:29,737 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:34:29,753 - INFO - Updated 654 candles in 13.23s, sleeping for 1.77s
+2025-04-04 21:34:32,032 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:34:34,192 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:34:36,414 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:34:38,733 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:34:41,027 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:34:43,417 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:34:43,435 - INFO - Updated 654 candles in 13.58s, sleeping for 1.42s
+2025-04-04 21:34:45,804 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:34:47,986 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:34:50,150 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:34:52,373 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:34:54,518 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:34:56,725 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:34:56,740 - INFO - Updated 654 candles in 13.20s, sleeping for 1.80s
+2025-04-04 21:34:59,027 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:35:01,235 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:35:03,459 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:35:05,696 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:35:08,027 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:35:10,165 - INFO - Updated 38 candles for XAUUSD M5
+2025-04-04 21:35:10,174 - INFO - Updated 656 candles in 13.33s, sleeping for 1.67s
+2025-04-04 21:35:12,207 - INFO - Updated 182 candles for EURUSD M1
+2025-04-04 21:35:14,216 - INFO - Updated 38 candles for EURUSD M5
+2025-04-04 21:35:16,176 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:35:18,151 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:35:20,100 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:35:21,959 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:35:21,973 - INFO - Updated 656 candles in 11.70s, sleeping for 3.30s
+2025-04-04 21:35:24,080 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:35:26,239 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:35:28,432 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:35:30,735 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:35:32,915 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:35:35,161 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:35:35,175 - INFO - Updated 654 candles in 13.10s, sleeping for 1.90s
+2025-04-04 21:35:37,425 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:35:39,604 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:35:41,807 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:35:44,141 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:35:46,787 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:35:49,094 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:35:49,111 - INFO - Updated 654 candles in 13.83s, sleeping for 1.17s
+2025-04-04 21:35:51,464 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:35:53,598 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:35:55,864 - INFO - Updated 181 candles for GBPUSD M1
+2025-04-04 21:35:58,097 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:36:00,245 - INFO - Updated 181 candles for XAUUSD M1
+2025-04-04 21:36:02,458 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:36:02,472 - INFO - Updated 654 candles in 13.26s, sleeping for 1.74s
+2025-04-04 21:36:04,449 - INFO - Updated 181 candles for EURUSD M1
+2025-04-04 21:36:05,121 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:06,375 - INFO - Updated 37 candles for EURUSD M5
+2025-04-04 21:36:08,253 - INFO - Updated 182 candles for GBPUSD M1
+2025-04-04 21:36:09,657 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,160 - INFO - Updated 37 candles for GBPUSD M5
+2025-04-04 21:36:10,178 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,203 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,233 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,265 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,297 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,369 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,392 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,437 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:10,467 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:12,131 - INFO - Updated 182 candles for XAUUSD M1
+2025-04-04 21:36:12,922 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,426 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,456 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,502 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,532 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,564 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,595 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,626 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,658 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,691 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,718 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,764 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,797 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,828 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,860 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,892 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,922 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,953 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:13,983 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:14,028 - INFO - Updated 37 candles for XAUUSD M5
+2025-04-04 21:36:14,039 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:14,039 - INFO - Stats: 60 updates, 772.6s total time, avg 12.88s per cycle
+2025-04-04 21:36:14,039 - INFO - Updated 656 candles in 11.47s, sleeping for 3.53s
+2025-04-04 21:36:14,062 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:14,093 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:14,126 - INFO - Received termination signal. Shutting down...
+2025-04-04 21:36:14,142 - INFO - Database connection closed
+2025-04-04 21:36:14,143 - INFO - MetaTrader 5 connection closed
+2025-04-04 21:36:14,143 - INFO - Live updater shutdown complete

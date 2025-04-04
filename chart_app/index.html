@@ -57,6 +57,13 @@
                     <input type="range" class="form-range" id="update-interval" min="0.05" max="60" value="5" step="0.05">
                     <div class="text-center" id="update-interval-value">5s</div>
                 </div>
+                
+                <div class="mb-3">
+                    <label for="candle-count" class="form-label">Number of Candles</label>
+                    <input type="range" class="form-range" id="candle-count" min="10" max="5000" value="500" step="10">
+                    <div class="text-center" id="candle-count-value">500</div>
+                </div>
+                
                 <div class="d-grid gap-2">
                     <button class="btn btn-primary" id="apply-settings">Apply Settings</button>
                     <button class="btn btn-outline-secondary" id="fetch-data">Fetch Data Now</button>

@@ -9,12 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const showVolumeCheckbox = document.getElementById('show-volume');
     const updateIntervalInput = document.getElementById('update-interval');
     const updateIntervalValue = document.getElementById('update-interval-value');
+    const candleCountInput = document.getElementById('candle-count');
+    const candleCountValue = document.getElementById('candle-count-value');
     const applySettingsButton = document.getElementById('apply-settings');
     const fetchDataButton = document.getElementById('fetch-data');
     const reloadChartButton = document.getElementById('reload-chart');
     
     // Application state
     let updateInterval = CONFIG.defaultUpdateInterval;
+    let candleCount = CONFIG.initialCandleCount;
     let updateTimer = null;
     
     /**
@@ -31,6 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Set initial update interval
             updateIntervalValue.textContent = `${parseFloat(updateIntervalInput.value).toFixed(2)}s`;
             updateInterval = parseFloat(updateIntervalInput.value) * 1000;
+            
+            // Set initial candle count
+            candleCountValue.textContent = candleCountInput.value;
+            candleCount = parseInt(candleCountInput.value);
             
             // Wait a moment for chartService to initialize
             setTimeout(() => {
@@ -139,8 +146,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 chartContainer.classList.add('loading');
             }
             
-            // Update chart and UI
-            await chartService.loadData(symbol, timeframe);
+            // Update chart and UI with current candle count
+            await chartService.loadData(symbol, timeframe, { limit: candleCount });
             
             document.title = `${symbol} ${timeframe} - MT5 Live Charts`;
             
@@ -357,6 +364,16 @@ document.addEventListener('DOMContentLoaded', () => {
             updateInterval = parseFloat(updateIntervalInput.value) * 1000;
             startUpdateTimer();
             console.log(`Update interval changed to ${updateInterval}ms`);
+        });
+        
+        // Candle count change
+        candleCountInput.addEventListener('input', () => {
+            candleCountValue.textContent = candleCountInput.value;
+        });
+        
+        candleCountInput.addEventListener('change', () => {
+            candleCount = parseInt(candleCountInput.value);
+            console.log(`Candle count changed to ${candleCount}`);
         });
         
         // Chart type change

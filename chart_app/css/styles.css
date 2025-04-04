@@ -168,6 +168,19 @@ body {
     margin-bottom: 0.3rem;
 }
 
+/* Candle count display */
+.candle-count-display {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index: 3;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .sidebar {

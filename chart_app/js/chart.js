@@ -344,11 +344,13 @@ class ChartService {
     }
 
     /**
-     * Load initial data for a symbol and timeframe
+     * Load data for a symbol and timeframe
      * @param {string} symbol - Trading symbol
      * @param {string} timeframe - Timeframe name
+     * @param {Object} options - Additional options (limit, startTime, endTime)
+     * @returns {boolean} - Success status
      */
-    async loadData(symbol, timeframe) {
+    async loadData(symbol, timeframe, options = {}) {
         console.log(`Loading data for ${symbol} ${timeframe}`);
         
         try {
@@ -364,29 +366,25 @@ class ChartService {
                 }
             }
             
-            // Fetch data from API
-            console.log(`Fetching OHLC data for ${symbol} ${timeframe}`);
-            const data = await apiService.getOhlcData(symbol, timeframe);
-            
-            if (!data || !data.t || data.t.length === 0) {
-                console.error(`No data received for ${symbol} ${timeframe}`);
-                throw new Error(`No data available for ${symbol} ${timeframe}`);
-            }
-            
-            console.log(`Received ${data.t.length} candles for ${symbol} ${timeframe}`);
-            
-            // Store data and settings
-            this.data = data;
+            // Save symbol and timeframe
             this.symbol = symbol;
             this.timeframe = timeframe;
             
-            // Create new chart with data
+            // Fetch OHLC data from API
+            console.log(`Fetching OHLC data for ${symbol} ${timeframe} with limit: ${options.limit || CONFIG.initialCandleCount}`);
+            this.data = await apiService.getOhlcData(symbol, timeframe, options);
+            
+            if (!this.data || !this.data.t || this.data.t.length === 0) {
+                throw new Error('No data available for the selected symbol and timeframe');
+            }
+            
+            console.log(`Loaded ${this.data.t.length} candles for ${symbol} ${timeframe}`);
+            
+            // Apply chart type
             this.setChartType(this.chartType);
             
-            // Add volume if enabled
-            if (this.showVolume) {
-                this.toggleVolume(true);
-            }
+            // Apply volume setting
+            this.toggleVolume(this.showVolume);
             
             // Fit content to view
             try {
@@ -395,9 +393,30 @@ class ChartService {
                 console.log('Could not fit content:', e.message);
             }
             
-            // Get latest candle for info panel
-            const latestCandle = await apiService.getLatestCandle(symbol, timeframe);
+            // Get the latest candle for info panel
+            let latestCandle;
+            try {
+                // Try to get the latest candle from API for most current data
+                latestCandle = await apiService.getLatestCandle(symbol, timeframe);
+            } catch (e) {
+                // Fallback to the last candle from our dataset
+                const latestIndex = this.data.t.length - 1;
+                latestCandle = {
+                    time: this.data.t[latestIndex] / 1000,
+                    open: this.data.o[latestIndex],
+                    high: this.data.h[latestIndex],
+                    low: this.data.l[latestIndex],
+                    close: this.data.c[latestIndex],
+                    tick_volume: this.data.tick_volume ? this.data.tick_volume[latestIndex] : 0,
+                    is_completed: this.data.is_completed ? this.data.is_completed[latestIndex] : 1
+                };
+            }
+            
+            // Update info panel with latest candle
             this.updateInfoPanel(latestCandle);
+            
+            // Show total candle count in the interface
+            this.updateCandleCountDisplay(this.data.t.length);
             
             // Record update time
             this.lastUpdateTime = Date.now();
@@ -563,6 +582,28 @@ class ChartService {
         } catch (error) {
             console.error('Failed to update chart data:', error);
             return false;
+        }
+    }
+
+    /**
+     * Update the candle count display in the UI
+     * @param {number} count - The number of candles
+     */
+    updateCandleCountDisplay(count) {
+        // Create or update the candle count display element
+        let countDisplay = document.getElementById('displayed-candle-count');
+        if (!countDisplay) {
+            const chartContainer = document.getElementById(this.containerId);
+            if (chartContainer) {
+                countDisplay = document.createElement('div');
+                countDisplay.id = 'displayed-candle-count';
+                countDisplay.className = 'candle-count-display';
+                chartContainer.appendChild(countDisplay);
+            }
+        }
+        
+        if (countDisplay) {
+            countDisplay.textContent = `Displaying ${count} candles`;
         }
     }
 }

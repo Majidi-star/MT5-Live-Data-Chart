@@ -209,7 +209,7 @@ def is_candle_complete(current_time, candle_time, timeframe_str):
     candle_end_time = candle_time + timeframe_seconds
     return current_time >= candle_end_time
 
-def update_database(conn, symbol, timeframe_const, timeframe_str, lookback=50000):
+def update_database(conn, symbol, timeframe_const, timeframe_str, lookback=99999):
     """
     Update the database with the latest candles, marking the current candle as incomplete.
     

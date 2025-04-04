@@ -12,7 +12,13 @@ class ApiService {
         // Connection status stabilization
         this.pendingStatusChange = null;
         this.statusChangeTimer = null;
-        this.stabilityDelay = 500; // 500ms delay to prevent status flicker
+        this.stabilityDelay = 1000; // 1 second delay to prevent status flicker
+        this.lastStatusChangeTime = Date.now();
+        this.minimumStatusDuration = 2000; // Minimum time to show a status (2 seconds)
+        this.consecutiveFailures = 0;
+        this.consecutiveSuccesses = 0;
+        this.failureThreshold = 3; // Number of consecutive failures before showing offline
+        this.successThreshold = 2; // Number of consecutive successes before showing online
     }
 
     /**
@@ -20,22 +26,67 @@ class ApiService {
      * @param {string} status - 'online', 'offline', or 'connecting'
      */
     setConnectionStatus(status) {
+        const currentTime = Date.now();
+        const timeSinceLastChange = currentTime - this.lastStatusChangeTime;
+        
         // Clear any pending status change
         if (this.statusChangeTimer) {
             clearTimeout(this.statusChangeTimer);
             this.statusChangeTimer = null;
         }
         
-        // If we're going from online to offline, delay the change to prevent flicker
+        // Update success/failure counters based on the requested status
+        if (status === 'online') {
+            this.consecutiveSuccesses++;
+            this.consecutiveFailures = 0;
+        } else if (status === 'offline') {
+            this.consecutiveFailures++;
+            this.consecutiveSuccesses = 0;
+        }
+        
+        // If current status is same as new status, just exit
+        if (this.connectionStatus === status) {
+            return;
+        }
+
+        // Don't change status too frequently 
+        if (timeSinceLastChange < this.minimumStatusDuration) {
+            // For important transitions (like complete connection loss), use thresholds
+            if (status === 'offline' && this.consecutiveFailures < this.failureThreshold) {
+                // Don't show offline until we have several consecutive failures
+                return;
+            }
+            
+            if (status === 'online' && this.consecutiveSuccesses < this.successThreshold) {
+                // Don't show online until we have several consecutive successes
+                return;
+            }
+            
+            // For less critical states like 'connecting', we can delay the change
+            if (status === 'connecting' && this.connectionStatus === 'online') {
+                // Don't flicker to 'connecting' when currently online and request is just starting
+                return;
+            }
+        }
+        
+        // For transitioning from online to offline, add extra delay to prevent flickering
         if (this.connectionStatus === 'online' && status === 'offline') {
             this.pendingStatusChange = status;
             this.statusChangeTimer = setTimeout(() => {
-                this.updateStatusIndicator(this.pendingStatusChange);
+                if (this.consecutiveFailures >= this.failureThreshold) {
+                    this.updateStatusIndicator(this.pendingStatusChange);
+                    this.lastStatusChangeTime = Date.now();
+                }
                 this.statusChangeTimer = null;
             }, this.stabilityDelay);
         } else {
-            // For any other status changes, update immediately
-            this.updateStatusIndicator(status);
+            // For other transitions, update after a shorter delay
+            this.pendingStatusChange = status;
+            this.statusChangeTimer = setTimeout(() => {
+                this.updateStatusIndicator(this.pendingStatusChange);
+                this.lastStatusChangeTime = Date.now();
+                this.statusChangeTimer = null;
+            }, status === 'online' ? 300 : 600); // Faster for online, slower for others
         }
     }
     
@@ -78,7 +129,12 @@ class ApiService {
      */
     async request(endpoint, params = {}) {
         try {
-            this.setConnectionStatus('connecting');
+            // Only show connecting state if we're not already connected or
+            // if the last status change was a while ago
+            if (this.connectionStatus !== 'online' || 
+                (Date.now() - this.lastStatusChangeTime > this.minimumStatusDuration)) {
+                this.setConnectionStatus('connecting');
+            }
             
             // Build URL with query parameters
             const url = new URL(`${this.baseUrl}${endpoint}`);
