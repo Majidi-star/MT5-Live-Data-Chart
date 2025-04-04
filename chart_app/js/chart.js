@@ -255,6 +255,9 @@ class ChartService {
         }
         
         try {
+            // Make sure we have the correct data structure
+            console.log(`Formatting candle data: ${data.t.length} candles available`);
+            
             const formattedData = data.t.map((time, i) => ({
                 time: time / 1000, // Convert from milliseconds to seconds
                 open: data.o[i],
@@ -263,7 +266,7 @@ class ChartService {
                 close: data.c[i]
             }));
             
-            console.log(`Formatted ${formattedData.length} candles for chart`);
+            console.log(`Successfully formatted ${formattedData.length} candles for chart`);
             return formattedData;
         } catch (error) {
             console.error('Error formatting candle data:', error);
@@ -366,6 +369,26 @@ class ChartService {
                 }
             }
             
+            // Show loading indicator for large candle counts
+            const requestedCandles = options.limit || CONFIG.initialCandleCount;
+            if (requestedCandles > 10000) {
+                const container = document.getElementById(this.containerId);
+                if (container) {
+                    // Create or update the loading message
+                    let loadingMsg = document.getElementById('large-data-loading');
+                    if (!loadingMsg) {
+                        loadingMsg = document.createElement('div');
+                        loadingMsg.id = 'large-data-loading';
+                        loadingMsg.className = 'large-data-loading';
+                        loadingMsg.innerHTML = `<div>Loading ${requestedCandles} candles...</div><div class="spinner"></div>`;
+                        container.appendChild(loadingMsg);
+                    } else {
+                        loadingMsg.innerHTML = `<div>Loading ${requestedCandles} candles...</div><div class="spinner"></div>`;
+                        loadingMsg.style.display = 'flex';
+                    }
+                }
+            }
+            
             // Save symbol and timeframe
             this.symbol = symbol;
             this.timeframe = timeframe;
@@ -379,6 +402,16 @@ class ChartService {
             }
             
             console.log(`Loaded ${this.data.t.length} candles for ${symbol} ${timeframe}`);
+            
+            // Performance optimization for large datasets
+            let formattedData;
+            const totalCandles = this.data.t.length;
+            
+            // Hide loading message for large data
+            const loadingMsg = document.getElementById('large-data-loading');
+            if (loadingMsg) {
+                loadingMsg.style.display = 'none';
+            }
             
             // Apply chart type
             this.setChartType(this.chartType);
@@ -424,6 +457,12 @@ class ChartService {
             console.log(`Chart data loaded successfully for ${symbol} ${timeframe}`);
             return true;
         } catch (error) {
+            // Hide loading message if there was an error
+            const loadingMsg = document.getElementById('large-data-loading');
+            if (loadingMsg) {
+                loadingMsg.style.display = 'none';
+            }
+            
             console.error(`Failed to load chart data for ${symbol} ${timeframe}:`, error);
             
             const container = document.getElementById(this.containerId);

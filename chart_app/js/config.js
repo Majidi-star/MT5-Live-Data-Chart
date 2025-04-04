@@ -21,7 +21,7 @@ const CONFIG = {
     minCandleCount: 10,
     
     // Maximum number of candles to fetch
-    maxCandleCount: 5000,
+    maxCandleCount: 100000,
     
     // Chart colors and styling
     chartOptions: {

@@ -196,7 +196,7 @@ async def get_candles(
     timeframe: str,
     start_time: Optional[str] = None,
     end_time: Optional[str] = None,
-    limit: Optional[int] = Query(default=100, le=10000),
+    limit: Optional[int] = Query(default=100, le=100000),
     completed_only: Optional[bool] = False,
 ):
     """
@@ -206,7 +206,7 @@ async def get_candles(
     - **timeframe**: Timeframe (e.g., M1, H1)
     - **start_time**: Optional start time in format 'YYYY-MM-DD HH:MM:SS'
     - **end_time**: Optional end time in format 'YYYY-MM-DD HH:MM:SS'
-    - **limit**: Maximum number of candles to return (default: 100, max: 10000)
+    - **limit**: Maximum number of candles to return (default: 100, max: 100000)
     - **completed_only**: If true, return only completed candles
     """
     table_name = f"{symbol}_{timeframe}"
@@ -291,7 +291,7 @@ async def get_ohlc_data(
     timeframe: str,
     start_time: Optional[str] = None,
     end_time: Optional[str] = None,
-    limit: Optional[int] = Query(default=100, le=10000),
+    limit: Optional[int] = Query(default=100, le=100000),
     completed_only: Optional[bool] = False,
 ):
     """
@@ -301,7 +301,7 @@ async def get_ohlc_data(
     - **timeframe**: Timeframe (e.g., M1, H1)
     - **start_time**: Optional start time in format 'YYYY-MM-DD HH:MM:SS'
     - **end_time**: Optional end time in format 'YYYY-MM-DD HH:MM:SS'
-    - **limit**: Maximum number of candles to return (default: 100, max: 10000)
+    - **limit**: Maximum number of candles to return (default: 100, max: 100000)
     - **completed_only**: If true, return only completed candles
     """
     table_name = f"{symbol}_{timeframe}"

@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         try {
-            console.log(`Loading chart data for ${symbol} ${timeframe}...`);
+            console.log(`Loading chart data for ${symbol} ${timeframe} with ${candleCount} candles...`);
             
             // Show loading indicator
             const chartContainer = document.getElementById('chart');
@@ -147,7 +147,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             // Update chart and UI with current candle count
-            await chartService.loadData(symbol, timeframe, { limit: candleCount });
+            const chartOptions = { 
+                limit: candleCount
+            };
+            console.log(`Requesting data with options:`, chartOptions);
+            
+            await chartService.loadData(symbol, timeframe, chartOptions);
             
             document.title = `${symbol} ${timeframe} - MT5 Live Charts`;
             
@@ -368,7 +373,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Candle count change
         candleCountInput.addEventListener('input', () => {
-            candleCountValue.textContent = candleCountInput.value;
+            const count = parseInt(candleCountInput.value);
+            // Format large numbers with thousands separator
+            candleCountValue.textContent = count.toLocaleString();
         });
         
         candleCountInput.addEventListener('change', () => {

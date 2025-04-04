@@ -254,6 +254,9 @@ class ApiService {
             completed_only: options.completedOnly || false
         };
         
+        // Log the limit being used for debugging
+        console.log(`API Request with candle limit: ${params.limit}`);
+        
         if (options.startTime) {
             params.start_time = options.startTime;
         }
